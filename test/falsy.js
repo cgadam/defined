@@ -1,3 +1,4 @@
+/* jshint node:true */
 var test = require('tape');
 var defined = require('../');
 

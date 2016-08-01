@@ -1,8 +1,9 @@
+/* jshint node:true */
 var defined = require('../');
 var test = require('tape');
 
 test('defined-or', function (t) {
-    var u = undefined;
+    var u;
     
     t.equal(defined(), u, 'empty arguments');
     t.equal(defined(u), u, '1 undefined');
